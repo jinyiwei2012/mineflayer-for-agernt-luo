@@ -1,0 +1,18 @@
+{
+  "name": "mcp-mineflayer",
+  "version": "1.0.0",
+  "description": "MCP server that exposes mineflayer as LLM-callable tools, with a built-in character persona system",
+  "type": "module",
+  "main": "server.js",
+  "bin": {
+    "mcp-mineflayer": "./server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "mineflayer": "file:..",
+    "vec3": "^0.1.7"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
